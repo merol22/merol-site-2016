@@ -91,52 +91,33 @@ section#intro .bg_img i{
 	}
 	
 /* acerca de */
-	
-	
-section#acerca_de div.contenido_Acercade{
-	height:550px;
+
+section#acerca_de{
+	background-color:white;
+	height:auto;
 	}
 	
 section#acerca_de .separador{
 float:left;
-position:absolute;
 }
 	
-.contenido_Acercade div.foto{
-	width: 40%;
-	float:left;
-	height: 100%;
-	z-index: 1;
-	text-align: center;
-	padding-top:100px;
-	}
-.contenido_Acercade div.foto img{
+div.foto{
+	text-align:center;
 	margin:0 auto;
-		}
+	padding-top:5%;
+	}
 
-section#acerca_de div.derechaVacio{
-	width: 60%;
-	background-color:#008294;
-	float: right;
-	height:100%;
-	z-index: 2;
+div.info{
+	background-color: #00D3C2;
+	height:450px;
 	}
 	
-section#acerca_de .acercade{
-	position:absolute;
-	left: 0;
-	right: 0;
-	margin-left: auto;
-	margin-right:auto;
-	top: 50px;
-	}
-	
-.acercade p{
+.info p{
 	font-family: 'Roboto', serif;
-	font-size:2em;
+	font-size:1.6em;
 	line-height:1.6em;
 	color:white;
-	padding-top:80px;
+	padding-top:100px;
 	}
 	
 /*servicios*/
@@ -360,4 +341,3 @@ div#correcto {
 
 	
 }
-
